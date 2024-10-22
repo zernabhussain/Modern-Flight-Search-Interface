@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend service for the **Flight Search Suite**. It provides APIs to query flights stored in **AWS DynamoDB** or generate random stub data. The backend is built using **FastAPI** and **AWS CDK** is used to provision the required DynamoDB table.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./app/static/css/tailwind.css -o ./app/static/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}

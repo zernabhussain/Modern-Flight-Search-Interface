@@ -1,0 +1,19 @@
+# Python
+__pycache__/ 
+
+# Poetry
+poetry.lock
+.poetry/
+.poetry-cache/
+
+# Node
+node_modules/ 
+ 
+
+
+
+ 
+ 
+
+ 
+ 
